@@ -1,0 +1,182 @@
+:root {
+  --color-logo: rgb(33, 150, 243);
+  --color-logo-dark: rgb(19, 127, 214);
+  --color-main: rgb(33, 33, 33);
+  --color-black: rgb(0, 0, 0);
+  --color-contact: rgb(117, 117, 117);
+  --color-contact-transp: rgba(255, 255, 255, .6);
+  --color-white: rgb(255, 255, 255);
+  --color-bg-main: rgb(47, 48, 58);
+  --color-bg-section: rgb(245, 244, 250);
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--color-main);
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-main);
+  line-height: 1.173;
+  letter-spacing: 0.02em;
+}
+
+.top .link {
+  font-weight: 500;
+}
+
+.bottom .link, .bottom address {
+  line-height: 1.714;
+}
+
+.bottom .contact {
+  color: var(--color-contact-transp);
+}
+
+.link:hover, .link:focus {
+  color: var(--color-logo);
+  cursor: pointer;
+}
+
+.logo-top, .logo-bottom {
+  font-family: "Raleway";
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.173;
+  letter-spacing: 0.03em;
+}
+
+.main-sections {
+  letter-spacing: 0.03em;
+}
+
+.main-sections h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.171;
+}
+
+.main-section {
+  background-color: var(--color-bg-main);
+}
+
+.main-section h1 {
+  font-size: 44px;
+  line-height: 1.363;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.logo-top {
+  color: var(--color-black);
+}
+
+.main-section button {
+  font-family: "roboto";
+  color: var(--color-white);
+  background-color: var(--color-logo);
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main-sections p {
+  color: var(--color-contact);
+}
+
+.main-sections button:hover {
+  background-color: var(--color-logo-dark);
+  cursor: pointer;
+}
+
+.portfolio-section button:hover, .portfolio-section button:focus {
+  color: var(--color-white);
+  background-color: var(--color-logo);
+}
+
+.first-section {
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+.first-section h3 {
+  font-weight: 700;
+  line-height: 1.172;
+  text-transform: uppercase;
+}
+
+.first-section p {
+  line-height: 1.714;
+}
+
+.third-section {
+  background-color: var(--color-bg-section);
+}
+
+.third-section li {
+  background-color: var(--color-white);
+}
+
+.third-section h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.171;
+  /* text-align: center; */
+}
+
+.third-section p {
+    font-size: 16px;
+    line-height: 1.171;
+    /* text-align: center; */
+}
+
+.portfolio-section button {
+  font-family: "roboto";
+  background-color: var(--color-bg-section);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.portfolio-first-section h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-first-section p {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+
+.bottom {
+  background-color: var(--color-bg-main);
+}
+
+.contact {
+  color: var(--color-contact);
+}
+
+.logo-bottom {
+  color: var(--color-white);
+}
+
+.logo-top span, .logo-bottom span {
+  color: var(--color-logo);
+}
+
+.bottom address {
+  color: var(--color-white);
+  font-style: normal;
+}
