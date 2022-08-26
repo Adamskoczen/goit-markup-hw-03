@@ -48,7 +48,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.main-sections {
+.main-sections, .portfolio-sections {
   letter-spacing: 0.03em;
 }
 
@@ -59,11 +59,11 @@ body {
   line-height: 1.171;
 }
 
-.main-section {
+.main-sections .section:nth-child(1) {
   background-color: var(--color-bg-main);
 }
 
-.main-section h1 {
+.main-sections .section h1 {
   font-size: 44px;
   line-height: 1.363;
   font-weight: 900;
@@ -87,57 +87,60 @@ body {
   text-align: center;
 }
 
-.main-sections p {
+.main-sections p, .portfolio-sections p {
   color: var(--color-contact);
+}
+
+.main-sections button:hover, .portfolio-sections button:hover {
+  cursor: pointer;
 }
 
 .main-sections button:hover {
   background-color: var(--color-logo-dark);
-  cursor: pointer;
 }
 
-.portfolio-section button:hover, .portfolio-section button:focus {
+.portfolio-sections button:hover, .portfolio-sections button:focus {
   color: var(--color-white);
   background-color: var(--color-logo);
 }
 
-.first-section {
+.main-sections .section:nth-child(2) {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
 
-.first-section h3 {
+.main-sections .section:nth-child(2) h3 {
   font-weight: 700;
   line-height: 1.172;
   text-transform: uppercase;
 }
 
-.first-section p {
+.main-sections .section:nth-child(2) p {
   line-height: 1.714;
 }
 
-.third-section {
+.main-sections .section:nth-child(4) {
   background-color: var(--color-bg-section);
 }
 
-.third-section li {
+.main-sections .section:nth-child(4) li {
   background-color: var(--color-white);
 }
 
-.third-section h4 {
+.main-sections .section:nth-child(4) h4 {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.171;
   /* text-align: center; */
 }
 
-.third-section p {
+.main-sections .section:nth-child(4) p {
     font-size: 16px;
     line-height: 1.171;
     /* text-align: center; */
 }
 
-.portfolio-section button {
+.portfolio-sections .section:nth-child(1) button {
   font-family: "roboto";
   background-color: var(--color-bg-section);
   font-size: 16px;
@@ -147,14 +150,14 @@ body {
   text-align: center;
 }
 
-.portfolio-first-section h3 {
+.portfolio-sections .section:nth-child(2) h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.portfolio-first-section p {
+.portfolio-sections .section:nth-child(2) p {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
