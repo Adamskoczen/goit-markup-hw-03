@@ -18,9 +18,9 @@ body {
   font-size: 14px;
 }
 
-.wrapper {
-  width: 1600px;
-  margin: 0 auto;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
@@ -28,9 +28,12 @@ body {
   margin: 0 auto;
 }
 
+ul {
+  margin: 0;
+}
+
 .container-header {
   border-bottom: 1px solid var(--color-border);
-  margin-bottom: 94px;
 }
 
 .top {
@@ -122,7 +125,8 @@ body {
   background-color: var(--color-bg-main);
   display: flex;
   align-items: center;
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-sections .section:nth-child(1) .container {
@@ -130,7 +134,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 200px 0;
 }
 
 .main-sections .section:nth-child(1) h1 {
@@ -141,7 +144,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-white);
-  margin: 0;;
+  margin: 0;
   padding: 0 252px 30px;
 }
 
@@ -181,14 +184,12 @@ body {
 .main-sections .section:nth-child(2) {
   letter-spacing: 0.03em;
   font-size: 14px;
-  padding-bottom: 94px;
 }
 
 .main-sections .section:nth-child(2) ul {
   display: flex;
   justify-content: space-around;
   padding-left: 0;
-  margin-top: 0;
 }
 
 .main-sections .section:nth-child(2) li {
@@ -199,6 +200,9 @@ body {
   font-weight: 700;
   line-height: 1.172;
   text-transform: uppercase;
+}
+
+.main-sections .section:nth-child(2) h3 {
   margin-top: 0;
 }
 
@@ -208,7 +212,7 @@ body {
 }
 
 .main-sections .section:nth-child(3) {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .main-sections .section:nth-child(3) h2 {
@@ -220,17 +224,10 @@ body {
   display: flex;
   justify-content: space-around;
   padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .main-sections .section:nth-child(4) {
   background-color: var(--color-bg-section);
-}
-
-.main-sections .section:nth-child(4) .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .main-sections .section:nth-child(4) h2 {
@@ -296,7 +293,7 @@ body {
 }
 
 .portfolio-sections .section:nth-child(2) {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .portfolio-sections .section:nth-child(2) ul {
@@ -353,8 +350,6 @@ body {
 .bottom ul {
   padding-bottom: 60px;
   padding-left: 0;
-  margin-top: 9px;
-  margin-bottom: 0;
 }
 
 .bottom li:not(:last-child) {
@@ -369,5 +364,6 @@ body {
   color: var(--color-white);
   font-style: normal;
   margin-top: 20px;
+  margin-bottom: 9px;
   letter-spacing: 0.03em;
 }
